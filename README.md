@@ -9,4 +9,5 @@ basándose únicamente en heurísticos para identificar estos flujos.
 Estos son los comadnos necesarios para ejecutar el codigo:
 
 gcc hash.c funciones.c listaHash.c consSQL.c listaRTP.c main.c -lpcap -lmysqlclient -lm -o monitorRTP
+
 ./ monitorRTP nombrefichero.pcap
